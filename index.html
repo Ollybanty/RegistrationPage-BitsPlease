@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;614;700;800;900&family=Oxygen&family=Oxygen+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/2c0690886e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>BitsPlease Registration Page</title>
+  </head>
+  <body>
+    <!-- Nav bar -->
+    <header class="header-container">
+      <nav>
+        <div  onclick="openTray()" class="menu-toggle">
+          <img  src="./images/menu-toggle.png" alt="" />
+          <!-- <i class="fa-solid fa-bars"></i> -->
+        </div>
+        <div>
+          <p class="title-tag">Bits<span class="title-span">Please</span></p>
+        </div>
+        <div>
+          <ul>
+            <li class="faq"><a href="#">FAQ</a></li>
+            <li>
+              <button
+                data-form2-target=".open-signup-forms"
+                class="joinus-btn"
+                type="button"
+              >
+                Join us
+              </button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- main section -->
+    <main>
+      <section class="section-one">
+        <div class="section-one-wrapper">
+          <div>
+            <p class="text-info-one">
+              Transition into the world <br />
+              of IT easily with Us.
+            </p>
+          </div>
+          <div>
+            <p class="text-info-two">
+              We have a step-by-step guide, dedicated mentors, curious learners
+              and resources to help you achieve your goals.
+            </p>
+          </div>
+          <div class="reg-buttons">
+            <div>
+              <button data-form1-target=".open-signin-forms" class="sign-in">
+                Sign In
+              </button>
+              <button
+                data-form1-target=".open-signin-forms"
+                class="sign-in-two"
+                onclick="openSigninForm()"
+              >
+                Log in
+              </button>
+            </div>
+            <div>
+              <button
+                data-form2-target=".open-signup-forms"
+                class="sign-up-btn"
+              >
+                Join us now
+              </button>
+            </div>
+          </div>
+          <div class="chat-box">
+            <img src="./images/message-icon.png" alt="" class="message-icon" />
+            <p class="chat-text">
+              We know you want to chat, <br />
+              what is it about?
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section-two">
+        <div class="hero-img-wrapper">
+          <div class="dotted-img-ctn">
+            <img src="./images/dotted-img.png" alt="" class="dotted-img" />
+          </div>
+          <div class="profile-img-ctn">
+            <img src="./images/profile-img.png" alt="" class="profile-img" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Sign up form -->
+
+    <section class="sign-up-ctn hidden open-signup-forms">
+    <div class="signup-sub-ctn ">
+        <div class="sign-up-wrapper">
+        <div>
+          <p class="greeting-txt">We're glad you came!</p>
+        </div>
+        <div>
+          <p class="prep-txt">Don't wait any longer, Sign Up.</p>
+        </div>
+      </div>
+      <form action="">
+        <div class="form-headings">
+          <label class="labels" for="full-name">Full Name</label>
+          <input
+            class="inputs"
+            type="text"
+            placeholder="Enter your name in full"
+            required
+          />
+        </div>
+        <div class="form-headings">
+          <label class="labels" for="Email-address">Email Address</label>
+          <input
+            class="inputs"
+            type="email"
+            placeholder="Enter your email address"
+            required
+          />
+        </div>
+        <div class="form-headings">
+          <label class="labels" for="password">Password</label>
+          <div class="password-wrapper">
+            <div>
+              <input
+                id="passwordwrap"
+                type="password"
+                placeholder="Create Password"
+                required
+              />
+            </div>
+            <div>
+              <img class="pwd-block" src="./images/password-block.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div>
+          <p class="pwd-info labels">Pasword must have a special character.</p>
+        </div>
+        <div>
+          <button class="join-us-now-two" type="button">Join us now</button>
+        </div>
+        <div class="hr-lines">
+          <hr class="hr1" />
+          <p class="alt-text">Alternatively</p>
+          <hr class="hr2" />
+        </div>
+        <div class="google-logo">
+          <div>
+            <img src="./google-icon.png" alt="" />
+          </div>
+          <div>
+            <p class="google-text">Continue with Google</p>
+          </div>
+        </div>
+        <div>
+          <p class="existing-user">
+            Are you already a fellow
+            <span
+              ><a
+                data-form1-target=".open-signin-forms"
+                class="lg-link"
+                href="index.html"
+                >Login</a
+              ></span
+            >
+          </p>
+        </div>
+    </div>
+        <div class="close-btn-ctn">
+          <button class="closeSignUpbutton">&times;</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- End of Sign up form -->
+
+    <!-- Sign in form -->
+    <section class="sign-in-ctn hidden open-signin-forms">
+     <div class="signin-sub-ctn">
+        <div class="sign-in-wrapper">
+        <p class="greeting-txt">Welcome back fellow!</p>
+      </div>
+
+      <form action="">
+        <div class="form-headings">
+          <label class="labels" for="Email-address">Email Address</label>
+          <input
+            class="inputs"
+            type="email"
+            placeholder="Enter your email address"
+            required
+          />
+        </div>
+        <div class="form-headings">
+          <label class="labels" for="password">Password</label>
+          <div class="password-wrapper">
+            <div>
+              <input
+                id="passwordwrap"
+                type="password"
+                placeholder="Create Password"
+                required
+              />
+            </div>
+            <div>
+              <img class="pwd-block" src="./images/password-block.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div>
+          <a class="forgot-pwd" href="#">Forgot password?</a>
+        </div>
+
+        <div>
+          <button class="Log-in-btns" type="button">Login</button>
+        </div>
+        <div class="hr-lines">
+          <hr class="hr1" />
+          <p class="alt-text">Alternatively</p>
+          <hr class="hr2" />
+        </div>
+        <div class="google-logo">
+          <div>
+            <img src="./google-icon.png" alt="" />
+          </div>
+          <div>
+            <p class="google-text">Continue with Google</p>
+          </div>
+        </div>
+        <div>
+          <p class="new-user">
+            Not yet a fellow?
+            <span><a class="lg-link" href="index.html">Join Us</a></span>
+          </p>
+        </div>
+        <div class="forgot-wrapper">
+          <a class="forgot-pwd-two" href="#">Forgot password?</a>
+        </div>
+      </form>
+     </div>
+      <div class="close-btn-ctn">
+        <button class="closeSignInbutton">&times;</button>
+      </div>
+    </section>
+
+    <!-- End of Sign in form -->
+
+    <!-- Side bar  -->
+    <section id="navBarr" class="side-bar">
+      <div class="sidebar-content">
+        <ul>
+          <li class="bit-logo-ctn">
+            <a class="bit-logo" href="index.html"
+              >Bits<span class="spanned-logo">Please</span></a
+            >
+          </li>
+
+          <div>
+            <li>
+              <a class="sign-ups" href="index.html">Join Us</a>
+            </li>
+            <li class="login-bottom">
+              <a class="logins" href="index.html">Log In</a>
+            </li>
+          </div>
+
+          <div class="services-ctn wrappers">
+            <li class="services">Product Management</li>
+            <li class="services">Product Design</li>
+            <li class="services">UI/UX Design</li>
+            <li class="services">Front-End Development</li>
+            <li class="services">Back-End Development</li>
+          </div>
+          <div class="ft-services">
+            <li class="services">FAQ</li>
+            <li class="services">About Us</li>
+            <li class="services copyright">
+              BitsPlease 2022, All right reserved
+            </li>
+          </div>
+        </ul>
+      </div>
+      <div onclick="closeTray()" class="close-button">
+        <button class="sideBarCloseBtn">&times;</button>
+      </div>
+    </section>
+
+    <!-- End of side bar  -->
+
+    <div id="overlay"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
