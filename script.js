@@ -78,3 +78,10 @@ var closeTray = document.querySelector(".sideBarCloseBtn");
 function closeTray() {
   document.getElementById("navBarr").style.display = "none";
 }
+
+var openSignupForm = document.getElementById("firstList");
+var openSigninForm = document.querySelector(".logins");
+
+function openSignupForm() {
+  document.querySelector(".sign-up-ctn").style.display = "block";
+}
