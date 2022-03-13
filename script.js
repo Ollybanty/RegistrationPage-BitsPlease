@@ -73,12 +73,14 @@ var openUp = document.querySelector(".joinusOne");
 
 function openTray() {
   document.getElementById("navBarr").style.display = "flex";
+  overlay.classList.add("active");
 }
 
 var closeTray = document.querySelector(".sideBarCloseBtn");
 
 function closeTray() {
   document.getElementById("navBarr").style.display = "none";
+  overlay.classList.remove("active");
 }
 
 var openSignupForm = document.getElementById("firstList");

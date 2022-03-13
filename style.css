@@ -948,7 +948,7 @@ form {
 @media only screen and (max-width: 480px) {
   html,
   body {
-    /* background-color: red; */
+    background-color: red;
     width: 100%;
     height: 100%;
     margin: 0;
@@ -1567,7 +1567,7 @@ form {
 
 @media only screen and (max-width: 400px) {
   body {
-    /* background-color: yellow; */
+    background-color: yellow;
   }
   #navBarr {
     display: none;
@@ -1769,6 +1769,76 @@ form {
     font-weight: var(--light-weight);
     color: var(--secondary);
     border: none;
+  }
+
+  .sign-up-ctn {
+    /* background-color: green; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    height: 100vh;
+    max-height: 900px;
+    width: 100vw;
+    text-align: center;
+    background-color: white;
+    z-index: 0;
+  }
+
+  .signup-sub-ctn {
+    /* border: 2px solid red; */
+    width: 150%;
+    margin-top: 50px;
+    /* margin-left: -10px; */
+  }
+
+  .close-btn-ctn {
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 530px;
+    border-radius: 5px;
+  }
+
+  .sign-in-ctn {
+    position: absolute;
+    display: block;
+    /* justify-content: space-between;
+  position: fixed; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    height: 100vh;
+    max-height: 900px;
+    width: 100vw;
+    text-align: center;
+    background-color: white;
+    z-index: 0;
+  }
+
+  .signin-sub-ctn {
+    /* border: 2px solid red; */
+    width: 90%;
+    margin-top: 90px;
+    /* margin-left: 25px; */
+  }
+
+  .closeSignInbutton {
+    display: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 40px;
+    background-color: #ffffff;
+    color: var(--secondary);
+    font-weight: var(--light);
+    border: none;
+  }
+
+  #overlay {
+    display: none;
   }
 }
 
