@@ -1195,11 +1195,11 @@ form {
   }
 
   .profile-img {
-    height: 200px;
+    height: 250px;
     /* width: 100%; */
-    width: 220px;
+    width: 250px;
     margin-top: 15px;
-    margin-left: -30px;
+    margin-left: -50px;
   }
 
   .section-one-wrapper {
@@ -1213,7 +1213,7 @@ form {
   .text-info-one {
     font-weight: var(--darker-weight);
     color: var(--secondary);
-    font-size: 19px;
+    font-size: 20px;
     /* margin-left: -30px; */
   }
 
