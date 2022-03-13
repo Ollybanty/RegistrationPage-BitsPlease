@@ -712,9 +712,9 @@ form {
 
   .section-one-wrapper {
     border: 2px solid brown;
-    width: 100vw;
-    margin-top: 5px;
-    margin-left: -80px;
+    width: 140%;
+    margin-top: 20px;
+    margin-left: -60px;
   }
 
   .text-info-one {
@@ -728,7 +728,7 @@ form {
     font-style: normal;
     color: var(--secondary);
     margin-top: 20px;
-    font-size: 17px;
+    font-size: 16px;
     /* line-height: 2; */
   }
 
@@ -1204,15 +1204,16 @@ form {
 
   .section-one-wrapper {
     border: 2px solid brown;
-    width: 100vw;
+    width: 160%;
     /* max-width: 300px; */
     margin-top: 5px;
+    margin-left: -60px;
   }
 
   .text-info-one {
     font-weight: var(--darker-weight);
     color: var(--secondary);
-    font-size: 22px;
+    font-size: 20px;
     /* margin-left: -30px; */
   }
 
@@ -1221,7 +1222,7 @@ form {
     font-style: normal;
     color: var(--secondary);
     margin-top: 20px;
-    font-size: 16px;
+    font-size: 13px;
     /* margin-left: -30px; */
   }
 
