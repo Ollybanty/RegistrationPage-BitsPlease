@@ -580,7 +580,7 @@ form {
 @media only screen and (max-width: 480px) {
   html,
   body {
-    background-color: red;
+    /* background-color: red; */
     width: 100%;
     height: 100%;
     margin: 0;
@@ -711,7 +711,7 @@ form {
   }
 
   .section-one-wrapper {
-    border: 2px solid brown;
+    /* border: 2px solid brown; */
     width: 140%;
     margin-top: 20px;
     margin-left: -60px;
@@ -1119,7 +1119,7 @@ form {
 
 @media only screen and (max-width: 400px) {
   body {
-    background-color: yellow;
+    /* background-color: yellow; */
   }
   #navBarr {
     display: none;
@@ -1203,7 +1203,7 @@ form {
   }
 
   .section-one-wrapper {
-    border: 2px solid brown;
+    /* border: 2px solid brown; */
     width: 180%;
     /* max-width: 300px; */
     margin-top: 5px;
@@ -1326,7 +1326,7 @@ form {
 
 @media only screen and (max-width: 350px) {
   body {
-    background-color: paleturquoise;
+    /* background-color: paleturquoise; */
   }
 
   #navBarr {
@@ -1473,7 +1473,7 @@ form {
 @media only screen and (max-width: 900px) and (min-width: 480px) {
   html,
   body {
-    background-color: green;
+    /* background-color: green; */
     width: 100%;
     height: 100%;
     margin: 0;
