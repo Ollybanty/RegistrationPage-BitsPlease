@@ -68,6 +68,8 @@ function closeSecondForm(formTwo) {
 }
 
 var openTray = document.querySelector(".menu-toggle");
+var closeUp = document.querySelector(".close-btn-ctn");
+var openUp = document.querySelector(".joinusOne");
 
 function openTray() {
   document.getElementById("navBarr").style.display = "flex";
@@ -85,3 +87,14 @@ var openSigninForm = document.querySelector(".logins");
 function openSignupForm() {
   document.querySelector(".sign-up-ctn").style.display = "block";
 }
+
+function closeUp() {
+  document.querySelector(".sign-up-ctn").style.display = "none";
+  document.querySelector(".sign-in-ctn").style.display = "none";
+  overlay.classList.remove("active");
+}
+
+// function openUp() {
+//   document.querySelector(".sign-up-ctn").style.display = "block";
+//   overlay.classList.add("active");
+// }

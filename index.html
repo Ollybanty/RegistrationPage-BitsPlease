@@ -32,13 +32,15 @@
           <ul>
             <li class="faq"><a href="#">FAQ</a></li>
             <li>
-              <button
+              <div  class="joinusOne">
+                <button 
                 data-form2-target=".open-signup-forms"
                 class="joinus-btn"
                 type="button"
               >
                 Join us
               </button>
+              </div>
             </li>
           </ul>
         </div>
@@ -73,7 +75,7 @@
                 Log in
               </button>
             </div>
-            <div>
+            <div class="joinusOne">
               <button
                 data-form2-target=".open-signup-forms"
                 class="sign-up-btn"
@@ -115,7 +117,7 @@
           <p class="prep-txt">Don't wait any longer, Sign Up.</p>
         </div>
       </div>
-      <form action="">
+      <form>
         <div class="form-headings">
           <label class="labels" for="full-name">Full Name</label>
           <input
@@ -173,17 +175,17 @@
           <p class="existing-user">
             Are you already a fellow
             <span
-              ><a
+              ><a 
                 data-form1-target=".open-signin-forms"
                 class="lg-link"
-                href="index.html"
+                href=""
                 >Login</a
               ></span
             >
           </p>
         </div>
     </div>
-        <div class="close-btn-ctn">
+        <div onclick="closeUp()"class="close-btn-ctn">
           <button class="closeSignUpbutton">&times;</button>
         </div>
       </form>
@@ -198,7 +200,7 @@
         <p class="greeting-txt">Welcome back fellow!</p>
       </div>
 
-      <form action="">
+      <form >
         <div class="form-headings">
           <label class="labels" for="Email-address">Email Address</label>
           <input
@@ -255,7 +257,7 @@
         </div>
       </form>
      </div>
-      <div class="close-btn-ctn">
+      <div onclick="closeUp()"class="close-btn-ctn">
         <button class="closeSignInbutton">&times;</button>
       </div>
     </section>
